@@ -1,5 +1,7 @@
 Flask API с PostgreSQL и Docker
 Простое REST API на Flask с PostgreSQL в Docker контейнерах. Проект включает в себя CI/CD pipeline через GitHub Actions и скрипт бэкапа базы данных.
+
+
 flask-api-project/
 ├── app/                # Исходный код приложения
 │   ├── __init__.py
@@ -15,6 +17,8 @@ flask-api-project/
 └── .github/            # Конфигурация GitHub Actions
     └── workflows/
         └── ci-cd.yml
+
+
 Запуск проекта
 Клонируйте репозиторий: git clone https://github.com/ваш-username/flask-api-project.git
 cd flask-api-project
@@ -58,6 +62,7 @@ DOCKERHUB_TOKEN - токен DockerHub
 SERVER_HOST - IP сервера для деплоя
 SERVER_USER - пользователь для SSH
 SERVER_SSH_KEY - приватный SSH ключ (без пароля)
+
 
 
 
