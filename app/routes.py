@@ -15,7 +15,4 @@ def create_user():
     new_user = User(username=data['username'], email=data['email'])
     db.session.add(new_user)
     db.session.commit()
-    return jsonify({"id": new_user.id, "username": new_user.username, "email": new_user.email}), 201"// Тест CI/CD пайплайна" 
-"// Тест CI/CD пайплайна" 
-"// Тест CI/CD пайплайна" 
-"# Тест CI/CD пайплайна" 
+    return jsonify({"id": new_user.id, "username": new_user.username, "email": new_user.email}), 201"
