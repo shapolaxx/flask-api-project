@@ -17,5 +17,3 @@ def create_user():
     db.session.commit()
 
     return jsonify({"id": new_user.id, "username": new_user.username, "email": new_user.email}), 201
-
-"# Тест CI/CD пайплайна" 
